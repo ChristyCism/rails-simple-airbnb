@@ -5,3 +5,35 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Flat.create!(
+  name: 'Spacious Flat Paris',
+  address: '12 rue Richer, 75009 Paris',
+  description: 'Incroyable appart. Une vraie chambre, les toilettes sont pas sur le palier, promis.',
+  price_per_night: 175,
+  number_of_guests: 2
+)
+
+Flat.create!(
+  name: 'Light & Spacious Garden Flat London',
+  address: '10 Clifton Gardens London W9 1DT',
+  description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+Flat.create!(
+  name: 'The best place ever in BK',
+  address: 'Greenfield, BK, NYC',
+  description: 'Feel @home',
+  price_per_night: 50,
+  number_of_guests: 4
+)
+
+Flat.create!(
+  name: 'Le seul appart de Dijon',
+  address: '45',
+  description: 'La moutarde ne vous montera pas au nez',
+  price_per_night: 45,
+  number_of_guests: 1
+)
